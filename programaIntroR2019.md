@@ -7,8 +7,8 @@ Este curso pretende apresentar uma introdução a uma das ferramentas de anális
 
 Cabe ressaltar que a intenção deste curso não é de esgotar as possibilidades do ambiente R, mas sim introduzir a linguagem e capacitar os/as alunos/as a adaptar o conhecimento adquirido aos seus problemas e finalidades de pesquisa. Ao final do curso, espera-se que os/as participantes estejam familiarizados com a sintaxe do R e estejam capacitados para entender qualquer código escrito em R e saber como procurar novas funcionalidades da linguagem na documentação disponibilizada em _websites_, _blogs_, livros e etc. 
 
-**Local de realização do curso:** Laboratório do ILEA\
-**Dias:** 30/10 06/11 13/11 20/11 04/12 (quarta-feira) \
+**Local de realização do curso:** Laboratório do ILEA <br>
+**Dias:** 30/10 06/11 13/11 20/11 04/12 (quarta-feira) <br>
 **Horário:** 14h-18h \
 **Carga Horária Total:** 20h 
 
