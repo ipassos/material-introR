@@ -1,7 +1,8 @@
 Introdução ao R
 ==================
-Plano do curso - 2019
-------------------
+
+<h2> Plano do curso - 2019 </h2>
+
 
 Este curso pretende apresentar uma introdução a uma das ferramentas de análise de dados mais versáteis e completas em uso atualmente: a linguagem e ambiente de programação R. Iremos, ao longo de cinco encontros, aprender como utilizar suas funcionalidades básicas de forma rápida e reprodutível com a intenção de utilizá-las e aplicá-las na pesquisa científica. Para tanto, após a compreensão das ferramentas básicas da linguagem, iniciaremos uma introdução a análise de dados, construção de gráficos e a exportação deste material. 
 
@@ -9,8 +10,8 @@ Cabe ressaltar que a intenção deste curso não é de esgotar as possibilidades
 
 **Local de realização do curso:** Laboratório do ILEA <br>
 **Dias:** 30/10 06/11 13/11 20/11 04/12 (quarta-feira) <br>
-**Horário:** 14h-18h \
-**Carga Horária Total:** 20h 
+**Horário:** 14h-18h <br>
+**Carga Horária Total:** 20h <br>
 
 **Repositório:** https://iaracpassos.gitlab.io/introR2019/ 
 
@@ -34,16 +35,16 @@ Além do material do curso, que será disponibilizado, são recomendados os segu
 
 ### Livros
 
-**[R for Data Science](https://r4ds.had.co.nz/)** de Garrett Grolemund & Hadley Wickham \
-**[Hands-On Programming with R](https://rstudio-education.github.io/hopr/index.html)** de Garrett Grolemund \
+**[R for Data Science](https://r4ds.had.co.nz/)** de Garrett Grolemund & Hadley Wickham <br>
+**[Hands-On Programming with R](https://rstudio-education.github.io/hopr/index.html)** de Garrett Grolemund <br>
 **[ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/index.html)** de Hadley Wickham 
 
 ### Dúvidas em geral
 
-**[Stack Overflow](https://stackoverflow.com/questions/tagged/r)** \
-**[RStudio Cheatsheets](https://rstudio.com/resources/cheatsheets/)** \
-**[RStudio Primers](https://rstudio.cloud/learn/primers)** \
-**[R Bloggers](https://www.r-bloggers.com/)** \
+**[Stack Overflow](https://stackoverflow.com/questions/tagged/r)** <br>
+**[RStudio Cheatsheets](https://rstudio.com/resources/cheatsheets/)** <br>
+**[RStudio Primers](https://rstudio.cloud/learn/primers)** <br>
+**[R Bloggers](https://www.r-bloggers.com/)** <br>
 **[Bookdown](https://bookdown.org/)**
 
 
@@ -56,55 +57,55 @@ O trabalho final utilzará os conceitos e pacotes trabalhados em aula, visando a
 
 # Regras básicas
 
-**1. Ninguém fica para trás** \
+**1. Ninguém fica para trás** <br>
 Para que isso seja possível, é muito importante que perguntas sejam feitas durante a aula. Também conto com a colaboração dos/as participantes que tenham mais facilidade ou que já tenham compreendido o tópico em questão para que ajudem os/as colegas que estejam com dificuldade em algum tópico. 
  
-**2. Atenção e concentração** \
+**2. Atenção e concentração** <br>
 O curso segue uma sequência de conceitos e ferramentas que dependem do tópico anterior. Por isso, é necessário muita atenção ao longo de todas as aulas, principalmente durante a explicação. 
 
-**3. Pontualidade** \
+**3. Pontualidade** <br>
 Para melhor funcionamento das atividades as aulas irão começar rigorosamente às 14h. Assim, recomenda-se fortemente a chegada no local de 5 a 10 minutos antes do início das atividades para que liguem os computadores e inicializem os programas necessários. 
 
-**4. Ética** \
+**4. Ética** <br>
 A reprodução integral de qualquer *script* e código de terceiros sem a devida referência é considerado plágio, em qualquer local de reprodução. Ainda que não estejam sendo avaliados para nota e afins é importante salientar essa questão ética. 
   
 # Plano das aulas
 
-**Aula 1 Introdução** \
-Data: **30/10** \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Apresentação \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Conhecendo o ambiente \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Pacotes e ajuda \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 4. Primeiros passos \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 5. Objetos e classes de objetos\
+**Aula 1 Introdução** <br>
+Data: **30/10** <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Apresentação <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Conhecendo o ambiente <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Pacotes e ajuda <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 4. Primeiros passos <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 5. Objetos e classes de objetos <br>
 &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 6. Vetores 
 
 
-**Aula 2 Objetos avançados** \
-Data: **06/11** \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Factors \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Matrizes \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Dataframes \
+**Aula 2 Objetos avançados** <br>
+Data: **06/11** <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Factors <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Matrizes <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Dataframes <br>
 &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 4. Listas 
 
 
-**Aula 3 Manipulando dados** \
-Data: **13/11** \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Importando bancos de dados \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Tratamento inicial dos dados \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Estatísticas descritivas \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 5. _[Tidyverse](https://www.tidyverse.org/)_ e o pacote _[dplyr](https://dplyr.tidyverse.org/)_ \
+**Aula 3 Manipulando dados** <br>
+Data: **13/11** <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Importando bancos de dados <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Tratamento inicial dos dados <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Estatísticas descritivas <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 5. _[Tidyverse](https://www.tidyverse.org/)_ e o pacote _[dplyr](https://dplyr.tidyverse.org/)_ <br>
 &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 6. Exportando bancos de dados 
 
 
-**Aula 4 Visualização dos dados** \
-Data: **20/11** \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Gráficos básicos no R \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. O pacote _[ggplot2](https://ggplot2.tidyverse.org/)_  \
+**Aula 4 Visualização dos dados** <br>
+Data: **20/11** <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. Gráficos básicos no R <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. O pacote _[ggplot2](https://ggplot2.tidyverse.org/)_  <br>
 &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 3. Exportando gráficos  
 
 
-**Aula 5 Apresentação dos dados e relatórios dinâmicos** \
-Data: **04/12** \
-&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. O _[Markdown](https://www.markdownguide.org/)_ e o pacote _[RMarkdown](https://rmarkdown.rstudio.com/)_\
+**Aula 5 Apresentação dos dados e relatórios dinâmicos** <br>
+Data: **04/12** <br>
+&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 1. O _[Markdown](https://www.markdownguide.org/)_ e o pacote _[RMarkdown](https://rmarkdown.rstudio.com/)_<br>
 &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 2. Confecção de relatórios
