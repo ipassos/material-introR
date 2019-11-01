@@ -1,9 +1,4 @@
----
-title: "Lista 2 - Aula 1"
-author: "Iara Passos"
-date: "11/1/2019"
-output: html_document
----
+
 1. Criar o seguinte vetor: 8 5 9 2
 
 2. Selecionar o primeiro e terceiro elemento do vetor criado anteriormente
@@ -26,19 +21,21 @@ output: html_document
 9. Calcule a soma dos 100 primeiros numeros das series:
 
   a. 1 + 0.95 + 0.90 + 0.85 + ...
+  
   b. -5  + -1.858407 + 1.283185 + 4.424778 + ...
+  
   c. 10 + 6.858407  + 3.716815  + ...
   
 10. A seguinte expressao retorna qual resposta do R? (tente descobrir sem colocar no R a expressao)
 
     **Atençao para os parenteses**
 
-    (TRUE == TRUE) | (TRUE == FALSE)
+    (TRUE == TRUE) "|" (TRUE == FALSE)
 
 11. A seguinte expressao retorna qual resposta do R? (tente descobrir sem colocar no R a expressao)
 
     **Atençao para os parenteses**
 
-    ((111 >= 111) | !(TRUE)) & ((4 + 1) == 5)
+    ((111 >= 111) "|" !(TRUE)) & ((4 + 1) == 5)
 
 
