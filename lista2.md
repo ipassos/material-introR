@@ -38,4 +38,4 @@
 
     ((111 >= 111) || !(TRUE)) && ((4 + 1) == 5)
 
-o simbolo "|" equivale ao simbolo relacional OU 
+
