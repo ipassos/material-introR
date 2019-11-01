@@ -30,12 +30,12 @@
 
     **Atençao para os parenteses**
 
-    (TRUE == TRUE) "|" (TRUE == FALSE)
+    (TRUE == TRUE) || (TRUE == FALSE)
 
 11. A seguinte expressao retorna qual resposta do R? (tente descobrir sem colocar no R a expressao)
 
     **Atençao para os parenteses**
 
-    ((111 >= 111) "|" !(TRUE)) & ((4 + 1) == 5)
+    ((111 >= 111) "||" !(TRUE)) && ((4 + 1) == 5)
 
-
+o simbolo "|" equivale ao simbolo relacional OU 
