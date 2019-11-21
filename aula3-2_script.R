@@ -62,3 +62,61 @@ pais_tidy$ano <- str_remove(pais_tidy$ano, "X")
 
 #funçao para citar os pacotes do R
 citation("stringr") 
+
+#pacote dplyr
+
+#seleciona do banco pais_tidy as variaveis pais, ano, valor
+sel <- pais_tidy %>%
+        select(pais, ano, valor)
+
+#ordena o banco pais_tidy por continente
+cont <- arrange(pais_tidy, continente)
+
+#filtra pais_tidy por ano > 1990, valor > 500 e ordem em ordem descrescente a variavel continente
+pais_tidy %>%
+  filter(ano > 1990) %>% 
+  filter(valor > 500) %>%
+  arrange(desc(continente))
+
+#conta os casos na variavel pais
+pais_tidy %>% 
+  count(pais) 
+
+#conta os casos na variavel pais e ordena por ordem crescente
+pais_tidy %>%
+  count(continente, sort = TRUE)
+
+#conta os casos na variavel ano2
+pais_tidy %>% 
+  count(ano2)
+
+#conta os casos na variavel pais mostrando (peso) a partir da variavel valor em ordem crescente
+pais_tidy %>% 
+  count(pais, wt = valor, sort = TRUE)
+
+#agrupa por continente e pais e mostra em uma tabela realizando as funçoes sum(), mean(), min(), max() removendo os NAs
+pais_tidy %>% 
+  group_by(continente, pais) %>% 
+  summarize(total = sum(valor, na.rm = TRUE), 
+            media_valor = mean(valor, na.rm = TRUE),
+            min = min(valor, na.rm = TRUE),
+            max = max(valor, na.rm = TRUE))
+
+#agrupa por continente e pais e mostra em uma tabela realizando a funçoes sum() e depois no resultado de sum() realiando as funçoes mean(), min(), max() removendo os NAs
+pais_tidy %>% 
+  group_by(continente, pais) %>% 
+  summarize(total = sum(valor, na.rm = TRUE)) %>% 
+  summarize(media_valor = mean(total, na.rm = TRUE),
+            min = min(total, na.rm = TRUE),
+            max = max(total, na.rm = TRUE))
+
+#agrupa por pais e mostra o valor mais alto (top1) de cada pais
+pais_tidy %>% 
+   group_by(pais) %>% 
+   top_n(1, valor)
+
+#mostra os paises em cada continente com maiores medias em valor
+pais_tidy %>% 
+  group_by(continente, pais) %>% 
+  summarize(media = mean(valor)) %>% 
+  top_n(1, media)
