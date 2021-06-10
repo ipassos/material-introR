@@ -2,7 +2,7 @@
 
 Repositório de materiais utilizados no curso de Introdução ao R - 2019
 
-Página do curso: [Introdução ao R - 2019](https://iaracpassos.gitlab.io/introR2019/)
+Página do curso: [Introdução ao R - 2019](https://ipassos.github.io/introR2019/)
 
 &nbsp;
 
